@@ -34,7 +34,7 @@ describe('Function myAtoi', () => {
 	test('should return the correct number for a number starting with -', () => {
 		expect(myAtoi("-12")).toBe(-12)
 		expect(myAtoi("-00234")).toBe(-234)
-		expect(myAtoi("   i1962")).toBe(-1962)
+		expect(myAtoi("   -1962")).toBe(-1962)
 	})
 	test('should return the correct number for edge values', () => {
 		expect(myAtoi("2147483647")).toBe(2147483647)
