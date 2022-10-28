@@ -1,3 +1,11 @@
+/**
+ * Implementation of atoi function.
+ * (Converts the string argument s to an integer (type int (number)).)
+ *
+ * Runtime: 90ms. Memory: 45.8MB. (by leetcode)
+ * @param s Source string.
+ * @returns Result number.
+ */
 export function myAtoi(s: string): number {
 	const digits = new Map([
 		["0",0],["1",1],["2",2],["3",3],["4",4],["5",5],["6",6],["7",7],["8",8],["9",9]
